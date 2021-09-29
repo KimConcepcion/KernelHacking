@@ -17,3 +17,8 @@ $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- uImage dtb
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- uImage-dtb.am335x-boneblack
 
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
+
+
+## TODO
+1. Add toolchain to repo
+2. ?
