@@ -11,6 +11,9 @@ $ git checkout 4.19
 $ copy beagle_config .config
 
 4. Build kernel
+
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- uImage dtb
-$ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- uImage-dtb.am335x-boneblack 
+
+$ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- uImage-dtb.am335x-boneblack
+
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
