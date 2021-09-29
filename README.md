@@ -2,13 +2,13 @@
 Repo for Linux kernel hacking on Beaglebone Black...
 
 ## Clone Beagleboard kernel
-https://github.com/beagleboard/linux.git
+$git clone https://github.com/beagleboard/linux.git
 
 ## Checkout kernel version on your Beagle e.g. 4.19
 $ git checkout 4.19
 
 ## Get defconfig file from linux-headers and copy into .config in Beagleboard kernel
-$ copy beagle_config .config
+$ cp beagle_config .config
 
 ## Build kernel
 
