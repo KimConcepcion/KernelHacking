@@ -20,5 +20,5 @@ $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
 
 
 ## TODO
-1. Add toolchain to repo
-2. ?
+1. Add toolchain
+2. Add defconfig file
