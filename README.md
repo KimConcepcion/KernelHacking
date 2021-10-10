@@ -1,8 +1,11 @@
 # KernelHacking
 Repo for Linux kernel hacking on Beaglebone Black...
 
+## Get cross compiler (I use gcc from Linaro, works on Centos 8)
+$ wget https://releases.linaro.org/components/toolchain/binaries/7.5-2019.12/arm-linux-gnueabihf/gcc-linaro-7.5.0-2019.12-x86_64_arm-linux-gnueabihf.tar.xz
+
 ## Clone Beagleboard kernel
-$git clone https://github.com/beagleboard/linux.git
+$ git clone https://github.com/beagleboard/linux.git
 
 ## Checkout kernel version on your Beagle e.g. 4.19
 $ git checkout 4.19
