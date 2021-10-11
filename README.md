@@ -13,15 +13,15 @@ $ git checkout 4.19
 ## Get defconfig file from linux-headers and copy into .config in Beagleboard kernel
 $ cp beagle_config .config
 
-### Build kernel image
+## Build kernel image
 
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- LOADADDR=0x80008000 uImage
 
-### Build device tree
+## Build device tree
 
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- uImage-dtb.am335x-boneblack
 
-### Build kernel modules
+## Build kernel modules
 
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
 
