@@ -27,4 +27,3 @@ $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- modules
 
 
 ## TODO
-1. Add defconfig file
