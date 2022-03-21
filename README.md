@@ -54,4 +54,6 @@ Remember to take backups of the content on the card if necessary.
 Second step is to create atleast two partitions for boot files and for the root file system.
 Boot partition is called BOOT & root file system can be called RFS.
 
+I personally use gparted to configure my sd card. Partition setup with 60mb for BOOT and 14gb for RFS:
 
+  ![image](https://github.com/KimConcepcion/KernelHacking/blob/main/card_partitions.png?raw=true)
